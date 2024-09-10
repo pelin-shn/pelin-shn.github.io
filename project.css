@@ -1,3 +1,7 @@
-h1 {
-    background-color: red;
+.pw-light-grey{
+    color: red;
+    background-color: beige;
+}
+html, body, h1, h2, h3, h4, h5, h6 {
+font-family: sans-serif;
 }
