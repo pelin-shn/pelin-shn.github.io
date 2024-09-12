@@ -77,3 +77,10 @@ background-color: white;
     font-size: small;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.fa-regular {
+    font-size: 10px;
+    color: rgb(76, 139, 128);
+}
+.h3 {
+    color: rgb(76, 139, 128);
+}
