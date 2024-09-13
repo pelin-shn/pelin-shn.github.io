@@ -99,7 +99,75 @@ background-color: white;
 .center {
     text-align: center!important;
 }
-.round-xlarge {
+
+.progress-bar {
+    width: 80%;
+    background-color: lightgray;
     border-radius: 16px;
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+
 }
 
+.progress-a {
+    height: 100%;
+    background-color: #009688;
+    position: relative;
+}
+.progress-b {
+    height: 100%;
+    background-color: #009688;
+    position: relative;
+}
+.progress-c {
+    height: 100%;
+    background-color: #009688;
+    position: relative;
+}
+.progress-d {
+    height: 100%;
+    background-color: #009688;
+    position: relative;
+}
+
+.progress-a::after {
+    content: "95%";
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #fff;        
+    font-weight: bold;
+    line-height: 30px;
+    pointer-events: none;
+    }
+.progress-b::after {
+    content: "80%";
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #fff;        
+    font-weight: bold;
+    line-height: 30px;
+    pointer-events: none;
+    }
+.progress-c::after {
+    content: "50%";
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #fff;        
+    font-weight: bold;
+    line-height: 30px;
+    pointer-events: none;
+    }    
+.progress-d::after {
+    content: "30%";
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #fff;        
+    font-weight: bold;
+    line-height: 30px;
+    pointer-events: none;
+    }
