@@ -3,6 +3,7 @@ font-family: Arial, Helvetica, sans-serif;
 margin: 0%;
 padding: 0%;
 background-color: white;
+
 }
 
 
@@ -10,13 +11,18 @@ background-color: white;
     display: flex;
     gap: 10px;
     justify-content: space-between; /* Solda ve sağda öğeleri hizalar */
-    padding: 20px;
+    padding: 60px;
     box-sizing: border-box;
-    height: 100vh; /* Ekranın yüksekliği kadar*/ 
+    height: 150vh; /* Ekranın yüksekliği kadar*/ 
     margin-top: 0;
-    
+    padding-bottom: 0%;
     
 }
+
+.footer {
+display: flex;
+}
+
 .light-grey {
     color: #000!important;
     background-color: #f1f1f1!important;
@@ -130,6 +136,21 @@ background-color: white;
     background-color: #009688;
     position: relative;
 }
+.progress-e {
+    height: 100%;
+    background-color: #009688;
+    position: relative;
+}
+.progress-f {
+    height: 100%;
+    background-color: #009688;
+    position: relative;
+}
+.progress-g {
+    height: 100%;
+    background-color: #009688;
+    position: relative;
+}
 
 .progress-a::after {
     content: "95%";
@@ -171,3 +192,4 @@ background-color: white;
     line-height: 30px;
     pointer-events: none;
     }
+  
